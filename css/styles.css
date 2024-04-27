@@ -36,26 +36,33 @@ padding: 5px 15px;
 cursor: pointer;
 opacity: .8;}
 
-ol {padding-left: 20px;}
-
-ol li {padding: 5px;color:#000;}
-
-ol li:nth-child(even){background: #dfdfdf;}
-
-.strike{text-decoration: line-through;}
-
-li:hover{
-  cursor: pointer;
- }
-
-.delete {
-	display: none;
+ol li {
+    padding: 5px;
+    color: #000;
+    background-color: #FFF; 
+    border: 1px solid #ddd; 
+    margin-top: 2px;
 }
 
-li > crossOutButton {
+.strike {
+    text-decoration: line-through; 
+}
+
+.delete-btn {
+    float: right; 
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    opacity: 0.8; 
+}
+
+
+li > button {
 	background: none;
 	border: none;
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+	cursor: pointer; 
 }
